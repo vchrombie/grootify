@@ -11,7 +11,31 @@
     "32": "grootify/assets/icon/icon32.png",
     "16": "grootify/assets/icon/icon16.png"
     },
-
+  "permissions": [
+    "storage",
+    "tabs",
+    "contextMenus",
+    "webRequest",
+    "<all_urls>",
+    "http://*/*",
+    "https://*/*",
+    "webNavigation",
+    "webRequestBlocking",
+    "cookies",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "options_page": "grootify/options/options.html",
+  "options_ui": {
+    "page": "grootify/options/options.html",
+    "chrome_style": true
+  },
+  "content_scripts": [{
+    "js": ["lib/jq/jquery-2.1.1.min.js", "grootify/grootify.js"],
+    "matches": ["http://*/*", "https://*/*"],
+    "run_at": "document_start",
+    "all_frames": false
+  }],
   "background": {
     "scripts": ["grootify/background.js"]
   }
