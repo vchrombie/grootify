@@ -1,28 +1,18 @@
 {
-	"name": "grootify!",
-	"version": "1.0",
-	"description": "Chrome Extension that replaces every image of your web page with Groot.",
-	"permissions": ["activeTab","declarativeContent", "storage"],
-	"page_action": {
-	    "default_popup": "popup.html",
-	       "default_icon": {
-				"16": "images/icon16.png",
-				"32": "images/icon32.png",
-				"48": "images/icon48.png",
-				"128": "images/icon128.png"
-	     	}
-	    },
-		"options_page": "options.html",
-		"background": {
-			"scripts": ["background.js"],
-			"persistent": false
-		},
-		"icons": {
-			"16": "images/icon16.png",
-			"32": "images/icon32.png",
-			"48": "images/icon48.png",
-			"128": "images/icon128.png"
-		},
+  "description": "__MSG_appDesc__",
+  "manifest_version": 2,
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appName__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "icons": {
+    "128": "grootify/assets/icon/icon128.png",
+    "48": "grootify/assets/icon/icon48.png",
+    "32": "grootify/assets/icon/icon32.png",
+    "16": "grootify/assets/icon/icon16.png"
+    },
 
-		"manifest_version": 2
+  "background": {
+    "scripts": ["grootify/background.js"]
+  }
 }
