@@ -1,0 +1,30 @@
+﻿{
+    "appName": {
+        "message": "Grootify",
+        "description": "The title of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Replaces all images on all pages with images of Groot.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "optionsHeader": {
+        "message": "Grootify Options",
+        "description": "Title of Options page"
+    },
+    "optionsPageActivate": {
+        "message": "Grootify is",
+        "description": "Text shown next to On/Off-button"
+    },
+    "optionsPageContextLink": {
+        "message": "Show \"Grootify Options\" on right-click",
+        "description": "Text shown next to On/Off-button"
+    },
+    "contextMenuOptions": {
+        "message": "Grootify Options",
+        "description": "The option in context menu to open the options"
+    },
+    "openOptionsInfo": {
+        "message": "Open options again by using right-click or by clicking grootify 'Options' under ",
+        "description": "The option in context menu to activate the extension"
+    }
+}
