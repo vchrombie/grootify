@@ -3,7 +3,7 @@
 Chrome Extension that replaces every image of your web page with Groot.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Extensions are small software programs that customize the browsing experience. They enable users to tailor Chrome functionality and behavior to individual needs or preferences. They are built on web technologies such as HTML, JavaScript, and CSS.
 
 ## Installing the Chrome Extension
 1. Get the source code.
@@ -27,23 +27,27 @@ git clone https://github.com/vchrombie/grootify/
 ![img](src/assets/images/ss_grootify.png)
 
 ## Built With
-* JavaScript
+* JavaScript and HTML/CSS.
 
 ## Authors
-* **Venu Vardhan** - *Initial work* - [vchrombie](https://github.com/vchrombie)
+* **Venu Vardhan** - *Initial work* - [vchrombie](https://github.com/vchrombie).
 
 ## Contributing
 If you are really interested in contributing to the please follow the below steps and rules.
-1. Fork the project. *(Give a star ⭐ to the repo before you fork :P)*
+1. Fork the project. (Give a star :star: to the repo before you fork :P)*
 2. Clone it.
-```git clone https://github.com/<username>/grootify/
+```
+git clone https://github.com/<username>/grootify/
 ```
 3. Look for any issues clicking the issues tab. Go through it and assign take one. Make sure you get assigned or atleast say that you are gonna work on it.
 4. Always create a new branch and work on the feature or bug. Check this if you are not that familiar with branching, [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 5. Please follow the template created for raising issues or sending pull requests.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 * Groot is a property of Marvel Comics.
+* Refer to [Getting Started - Google Chrome Extensions](https://developer.chrome.com/extensions/getstarted).
+* Refer to this tutorial post, [How to Make a Chrome Extensio](https://robots.thoughtbot.com/how-to-make-a-chrome-extension).
+* Refer to this awesome blog post, [Changing images dynamically](https://www.xul.fr/en/dom/dynamic-images.php).
