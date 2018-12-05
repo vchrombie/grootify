@@ -55,7 +55,7 @@
 
     //Opens the options tab
     openOptions() {
-      var optionsUrl = chrome.extension.getURL('grootify/options/options.html');
+      var optionsUrl = chrome.extension.getURL('src/options/options.html');
       self.openUrl(optionsUrl);
     },
 

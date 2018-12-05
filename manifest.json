@@ -6,10 +6,10 @@
   "version": "1.0.0",
   "default_locale": "en",
   "icons": {
-    "128": "grootify/assets/icon/icon128.png",
-    "48": "grootify/assets/icon/icon48.png",
-    "32": "grootify/assets/icon/icon32.png",
-    "16": "grootify/assets/icon/icon16.png"
+    "128": "src/assets/icon/icon128.png",
+    "48": "src/assets/icon/icon48.png",
+    "32": "src/assets/icon/icon32.png",
+    "16": "src/assets/icon/icon16.png"
     },
   "permissions": [
     "storage",
@@ -25,18 +25,18 @@
     "storage",
     "unlimitedStorage"
   ],
-  "options_page": "grootify/options/options.html",
+  "options_page": "src/options/options.html",
   "options_ui": {
-    "page": "grootify/options/options.html",
+    "page": "src/options/options.html",
     "chrome_style": true
   },
   "content_scripts": [{
-    "js": ["lib/jq/jquery-2.1.1.min.js", "grootify/grootify.js"],
+    "js": ["lib/jq/jquery-2.1.1.min.js", "src/grootify.js"],
     "matches": ["http://*/*", "https://*/*"],
     "run_at": "document_start",
     "all_frames": false
   }],
   "background": {
-    "scripts": ["grootify/background.js"]
+    "scripts": ["src/background.js"]
   }
 }

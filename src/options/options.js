@@ -55,9 +55,9 @@
     setStatus(active) {
       var url;
       if (active) {
-        url = chrome.extension.getURL("grootify/assets/images/on.jpg");
+        url = chrome.extension.getURL("src/assets/images/on.jpg");
       } else {
-        url = chrome.extension.getURL("grootify/assets/images/off.jpg");
+        url = chrome.extension.getURL("src/assets/images/off.jpg");
       }
       document.getElementById("imgStatus").src = url;
     },
