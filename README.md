@@ -20,7 +20,7 @@ git clone https://github.com/vchrombie/grootify/
 2. Initially, you can see the images of the required search.
 3. Click on the grootify extension app, which you can see on the top right corner of the chrome browser. Click on Options.
 4. Enable (ON) the grootify switch.
-5. No reload the Captain America search again.
+5. Now reload the Captain America search again.
 6. Wait for a sec and boom. :P
 
 ## Screenshots
